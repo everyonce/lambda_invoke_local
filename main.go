@@ -12,5 +12,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	fmt.Println("success")
+
 	fmt.Println(string(response))
 }
